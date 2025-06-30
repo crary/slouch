@@ -17,9 +17,9 @@ function Navbar() {
           <Link to="/products" className="text-gray-600 hover:text-gray-800 px-3">
             Products
           </Link>
-          <Link to="/#faq" className="text-gray-600 hover:text-gray-800 px-3 flex items-center">
+          <a href="/#faq" className="text-gray-600 hover:text-gray-800 px-3 flex items-center">
             FAQs
-          </Link>
+          </a>
           <Link to="/cart" className="text-gray-600 hover:text-gray-800 flex items-center">
             <ShoppingCart className="mr-1" size={20} />
             Cart
