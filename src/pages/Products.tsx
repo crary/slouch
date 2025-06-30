@@ -42,6 +42,46 @@ const products = [
     imageUrl: 'https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
     affiliateLink: 'https://www.amazon.com/AmazonBasics-High-Density-Round-Foam-Roller/dp/B00VFKN0VU',
   },
+  {
+    id: 6,
+    name: 'Upright GO 2',
+    description: 'A small device that sticks to your upper back and vibrates when you slouch.',
+    price: 79.99,
+    imageUrl: 'https://m.media-amazon.com/images/I/31jJk9WnGuL._AC_UF400,400_QL80_.jpg',
+    affiliateLink: 'https://www.amazon.com/dp/B07XD32DDM',
+  },
+  {
+    id: 7,
+    name: 'BetterBack Posture Support Belt',
+    description: 'A posture support belt that wraps around your knees and back to encourage better posture.',
+    price: 59.99,
+    imageUrl: 'https://m.media-amazon.com/images/I/41KR0J44xiL._AC_UF400,400_QL80_.jpg',
+    affiliateLink: 'https://www.amazon.com/dp/B01NAW8E78',
+  },
+  {
+    id: 8,
+    name: 'AlignBack Straightener',
+    description: 'An adjustable posture corrector designed to straighten your back and align your spine.',
+    price: 39.99,
+    imageUrl: 'https://m.media-amazon.com/images/I/41fJt-TKjKL._AC_UF400,400_QL80_.jpg',
+    affiliateLink: 'https://www.amazon.com/back-alignment-brace/s?k=back+alignment+brace',
+  },
+  {
+    id: 9,
+    name: 'Evoke Pro A300',
+    description: 'A posture corrector with a smart sensor that vibrates to remind you to sit up straight.',
+    price: 99.99,
+    imageUrl: 'https://m.media-amazon.com/images/I/41NZxEuKjDL._AC_UF400,400_QL80_.jpg',
+    affiliateLink: 'https://www.amazon.com/dp/B08J24995H',
+  },
+  {
+    id: 10,
+    name: 'BackEmbrace',
+    description: 'A posture support that gently pulls your shoulders back to improve posture.',
+    price: 49.99,
+    imageUrl: 'https://m.media-amazon.com/images/I/319PGbh5WJL._AC_UF400,400_QL80_.jpg',
+    affiliateLink: 'https://www.amazon.com/dp/B07XD32DDM',
+  },
 ];
 
 function Products() {

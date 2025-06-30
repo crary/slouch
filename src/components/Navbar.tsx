@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ShoppingCart, Layout } from 'lucide-react';
+import { ShoppingCart, Layout, QuestionMarkCircle } from 'lucide-react';
 
 function Navbar() {
   return (
@@ -16,6 +16,9 @@ function Navbar() {
           </Link>
           <Link to="/products" className="text-gray-600 hover:text-gray-800 px-3">
             Products
+          </Link>
+          <Link to="/#faq" className="text-gray-600 hover:text-gray-800 px-3 flex items-center">
+            FAQs
           </Link>
           <Link to="/cart" className="text-gray-600 hover:text-gray-800 flex items-center">
             <ShoppingCart className="mr-1" size={20} />
